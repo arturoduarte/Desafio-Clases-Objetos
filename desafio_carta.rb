@@ -1,5 +1,4 @@
 #Desafío Cartas
-
 class Carta
 	attr_accessor :numero, :pinta
 	def initialize(numero, pinta)
@@ -12,7 +11,7 @@ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"]
 pinta = ["Córazon", "Diamante", "Picas", "Trebol"]
 
 opcion = ''
-while opcion != 'Salir'
+whlile opcion != 'Salir'
 	puts "Menú"
 	puts "\n"
 	puts "Ingresa una de las siguientes opciones:
@@ -31,7 +30,9 @@ while opcion != 'Salir'
 				arr_cartas << aleatorio
 			end
 			system("clear")
+			puts "\n=================================================="	
 			puts "5 Cartas fueron generadas correctamente!!!!"
+			puts "=================================================="
 			puts "\n"
 			
 		when "mostrar"
